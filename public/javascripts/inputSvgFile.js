@@ -44,7 +44,7 @@ function getSvgFile (svg_file) {
         dataType: 'html',
         data: "data=" + JSON.stringify(path),
         success: function (resp) {
-            alert(resp);
+            // alert(resp);
         },
         error: function (xhr, str) {
             alert('Возникла ошибка: ' + xhr.responseCode);
